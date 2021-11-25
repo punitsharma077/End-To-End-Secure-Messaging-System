@@ -16,10 +16,10 @@ ities:
 - Each user can create a group [CREATE command].
 - If one user sends a message to a group it should be sent to all members of that group.
 
-#### 1
+#### 1)
 
 
-- The message is encrypted using Tripple DES (3DES) and the key will be Diffie–Hellman key type
+- The message is encrypted using Tripple DES (3DES) or AES and the key will be Diffie–Hellman key type
     exchanged between clients.
 - For each group make one key (random nonce).
 - Message can be any type, for example, text, images, video, and audio.
@@ -27,7 +27,7 @@ ities:
 Note: The one time Diffie–Hellman type key must be include a prive key (for instance roll nos.).
 
 
-#### 2
+#### 2)
 
 
 
